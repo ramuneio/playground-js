@@ -1,0 +1,38 @@
+{
+  "name": "playground-js",
+  "version": "1.0.0",
+  "description": "JavaScript playground",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-watch src/index.js",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ramuneio@github.com/ramuneio/playground-js.git"
+  },
+  "keywords": [
+    "babel",
+    "watch",
+    "javascript",
+    "hot",
+    "reload",
+    "node",
+    "fun"
+  ],
+  "author": "ramuneio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramuneio/playground-js/issues"
+  },
+  "homepage": "https://github.com/ramuneio/playground-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-jest": "^25.1.0",
+    "babel-watch": "^7.0.0",
+    "chalk": "^3.0.0",
+    "jest": "^25.1.0",
+    "prettier": "1.19.1"
+  }
+}
